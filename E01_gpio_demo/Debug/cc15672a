@@ -1,0 +1,166 @@
+--dep-file=libraries/zf_driver/zf_driver_delay.d
+-c99
+--fp-model=1cFLNRSTZ
+-D__CPU__=tc26xb
+-D__CPU_TC26XB__
+--core=tc1.6.x
+-D__CPU__=tc26xb
+-ID:\\AURIX" "workspace\\E01_gpio_demo
+-ID:\\AURIX" "workspace\\E01_gpio_demo\\code
+-ID:\\AURIX" "workspace\\E01_gpio_demo\\imu
+-ID:\\AURIX" "workspace\\E01_gpio_demo\\libraries
+-ID:\\AURIX" "workspace\\E01_gpio_demo\\libraries\\infineon_libraries
+-ID:\\AURIX" "workspace\\E01_gpio_demo\\libraries\\infineon_libraries\\Configurations
+-ID:\\AURIX" "workspace\\E01_gpio_demo\\libraries\\infineon_libraries\\Infra
+-ID:\\AURIX" "workspace\\E01_gpio_demo\\libraries\\infineon_libraries\\Infra\\Platform
+-ID:\\AURIX" "workspace\\E01_gpio_demo\\libraries\\infineon_libraries\\Infra\\Platform\\Tricore
+-ID:\\AURIX" "workspace\\E01_gpio_demo\\libraries\\infineon_libraries\\Infra\\Platform\\Tricore\\Compilers
+-ID:\\AURIX" "workspace\\E01_gpio_demo\\libraries\\infineon_libraries\\Infra\\Sfr
+-ID:\\AURIX" "workspace\\E01_gpio_demo\\libraries\\infineon_libraries\\Infra\\Sfr\\TC26B
+-ID:\\AURIX" "workspace\\E01_gpio_demo\\libraries\\infineon_libraries\\Infra\\Sfr\\TC26B\\_Reg
+-ID:\\AURIX" "workspace\\E01_gpio_demo\\libraries\\infineon_libraries\\Service
+-ID:\\AURIX" "workspace\\E01_gpio_demo\\libraries\\infineon_libraries\\Service\\CpuGeneric
+-ID:\\AURIX" "workspace\\E01_gpio_demo\\libraries\\infineon_libraries\\Service\\CpuGeneric\\If
+-ID:\\AURIX" "workspace\\E01_gpio_demo\\libraries\\infineon_libraries\\Service\\CpuGeneric\\If\\Ccu6If
+-ID:\\AURIX" "workspace\\E01_gpio_demo\\libraries\\infineon_libraries\\Service\\CpuGeneric\\StdIf
+-ID:\\AURIX" "workspace\\E01_gpio_demo\\libraries\\infineon_libraries\\Service\\CpuGeneric\\SysSe
+-ID:\\AURIX" "workspace\\E01_gpio_demo\\libraries\\infineon_libraries\\Service\\CpuGeneric\\SysSe\\Bsp
+-ID:\\AURIX" "workspace\\E01_gpio_demo\\libraries\\infineon_libraries\\Service\\CpuGeneric\\SysSe\\Comm
+-ID:\\AURIX" "workspace\\E01_gpio_demo\\libraries\\infineon_libraries\\Service\\CpuGeneric\\SysSe\\General
+-ID:\\AURIX" "workspace\\E01_gpio_demo\\libraries\\infineon_libraries\\Service\\CpuGeneric\\SysSe\\Math
+-ID:\\AURIX" "workspace\\E01_gpio_demo\\libraries\\infineon_libraries\\Service\\CpuGeneric\\SysSe\\Time
+-ID:\\AURIX" "workspace\\E01_gpio_demo\\libraries\\infineon_libraries\\Service\\CpuGeneric\\_Utilities
+-ID:\\AURIX" "workspace\\E01_gpio_demo\\libraries\\infineon_libraries\\iLLD
+-ID:\\AURIX" "workspace\\E01_gpio_demo\\libraries\\infineon_libraries\\iLLD\\TC26B
+-ID:\\AURIX" "workspace\\E01_gpio_demo\\libraries\\infineon_libraries\\iLLD\\TC26B\\Tricore
+-ID:\\AURIX" "workspace\\E01_gpio_demo\\libraries\\infineon_libraries\\iLLD\\TC26B\\Tricore\\Asclin
+-ID:\\AURIX" "workspace\\E01_gpio_demo\\libraries\\infineon_libraries\\iLLD\\TC26B\\Tricore\\Asclin\\Asc
+-ID:\\AURIX" "workspace\\E01_gpio_demo\\libraries\\infineon_libraries\\iLLD\\TC26B\\Tricore\\Asclin\\Lin
+-ID:\\AURIX" "workspace\\E01_gpio_demo\\libraries\\infineon_libraries\\iLLD\\TC26B\\Tricore\\Asclin\\Spi
+-ID:\\AURIX" "workspace\\E01_gpio_demo\\libraries\\infineon_libraries\\iLLD\\TC26B\\Tricore\\Asclin\\Std
+-ID:\\AURIX" "workspace\\E01_gpio_demo\\libraries\\infineon_libraries\\iLLD\\TC26B\\Tricore\\Ccu6
+-ID:\\AURIX" "workspace\\E01_gpio_demo\\libraries\\infineon_libraries\\iLLD\\TC26B\\Tricore\\Ccu6\\Icu
+-ID:\\AURIX" "workspace\\E01_gpio_demo\\libraries\\infineon_libraries\\iLLD\\TC26B\\Tricore\\Ccu6\\PwmBc
+-ID:\\AURIX" "workspace\\E01_gpio_demo\\libraries\\infineon_libraries\\iLLD\\TC26B\\Tricore\\Ccu6\\PwmHl
+-ID:\\AURIX" "workspace\\E01_gpio_demo\\libraries\\infineon_libraries\\iLLD\\TC26B\\Tricore\\Ccu6\\Std
+-ID:\\AURIX" "workspace\\E01_gpio_demo\\libraries\\infineon_libraries\\iLLD\\TC26B\\Tricore\\Ccu6\\TPwm
+-ID:\\AURIX" "workspace\\E01_gpio_demo\\libraries\\infineon_libraries\\iLLD\\TC26B\\Tricore\\Ccu6\\Timer
+-ID:\\AURIX" "workspace\\E01_gpio_demo\\libraries\\infineon_libraries\\iLLD\\TC26B\\Tricore\\Ccu6\\TimerWithTrigger
+-ID:\\AURIX" "workspace\\E01_gpio_demo\\libraries\\infineon_libraries\\iLLD\\TC26B\\Tricore\\Cif
+-ID:\\AURIX" "workspace\\E01_gpio_demo\\libraries\\infineon_libraries\\iLLD\\TC26B\\Tricore\\Cif\\Cam
+-ID:\\AURIX" "workspace\\E01_gpio_demo\\libraries\\infineon_libraries\\iLLD\\TC26B\\Tricore\\Cif\\Std
+-ID:\\AURIX" "workspace\\E01_gpio_demo\\libraries\\infineon_libraries\\iLLD\\TC26B\\Tricore\\Cpu
+-ID:\\AURIX" "workspace\\E01_gpio_demo\\libraries\\infineon_libraries\\iLLD\\TC26B\\Tricore\\Cpu\\CStart
+-ID:\\AURIX" "workspace\\E01_gpio_demo\\libraries\\infineon_libraries\\iLLD\\TC26B\\Tricore\\Cpu\\Irq
+-ID:\\AURIX" "workspace\\E01_gpio_demo\\libraries\\infineon_libraries\\iLLD\\TC26B\\Tricore\\Cpu\\Std
+-ID:\\AURIX" "workspace\\E01_gpio_demo\\libraries\\infineon_libraries\\iLLD\\TC26B\\Tricore\\Cpu\\Trap
+-ID:\\AURIX" "workspace\\E01_gpio_demo\\libraries\\infineon_libraries\\iLLD\\TC26B\\Tricore\\Dma
+-ID:\\AURIX" "workspace\\E01_gpio_demo\\libraries\\infineon_libraries\\iLLD\\TC26B\\Tricore\\Dma\\Dma
+-ID:\\AURIX" "workspace\\E01_gpio_demo\\libraries\\infineon_libraries\\iLLD\\TC26B\\Tricore\\Dma\\Std
+-ID:\\AURIX" "workspace\\E01_gpio_demo\\libraries\\infineon_libraries\\iLLD\\TC26B\\Tricore\\Dsadc
+-ID:\\AURIX" "workspace\\E01_gpio_demo\\libraries\\infineon_libraries\\iLLD\\TC26B\\Tricore\\Dsadc\\Dsadc
+-ID:\\AURIX" "workspace\\E01_gpio_demo\\libraries\\infineon_libraries\\iLLD\\TC26B\\Tricore\\Dsadc\\Rdc
+-ID:\\AURIX" "workspace\\E01_gpio_demo\\libraries\\infineon_libraries\\iLLD\\TC26B\\Tricore\\Dsadc\\Std
+-ID:\\AURIX" "workspace\\E01_gpio_demo\\libraries\\infineon_libraries\\iLLD\\TC26B\\Tricore\\Dts
+-ID:\\AURIX" "workspace\\E01_gpio_demo\\libraries\\infineon_libraries\\iLLD\\TC26B\\Tricore\\Dts\\Dts
+-ID:\\AURIX" "workspace\\E01_gpio_demo\\libraries\\infineon_libraries\\iLLD\\TC26B\\Tricore\\Dts\\Std
+-ID:\\AURIX" "workspace\\E01_gpio_demo\\libraries\\infineon_libraries\\iLLD\\TC26B\\Tricore\\Emem
+-ID:\\AURIX" "workspace\\E01_gpio_demo\\libraries\\infineon_libraries\\iLLD\\TC26B\\Tricore\\Emem\\Std
+-ID:\\AURIX" "workspace\\E01_gpio_demo\\libraries\\infineon_libraries\\iLLD\\TC26B\\Tricore\\Eray
+-ID:\\AURIX" "workspace\\E01_gpio_demo\\libraries\\infineon_libraries\\iLLD\\TC26B\\Tricore\\Eray\\Eray
+-ID:\\AURIX" "workspace\\E01_gpio_demo\\libraries\\infineon_libraries\\iLLD\\TC26B\\Tricore\\Eray\\Std
+-ID:\\AURIX" "workspace\\E01_gpio_demo\\libraries\\infineon_libraries\\iLLD\\TC26B\\Tricore\\Eth
+-ID:\\AURIX" "workspace\\E01_gpio_demo\\libraries\\infineon_libraries\\iLLD\\TC26B\\Tricore\\Eth\\Phy_Pef7071
+-ID:\\AURIX" "workspace\\E01_gpio_demo\\libraries\\infineon_libraries\\iLLD\\TC26B\\Tricore\\Eth\\Std
+-ID:\\AURIX" "workspace\\E01_gpio_demo\\libraries\\infineon_libraries\\iLLD\\TC26B\\Tricore\\Fce
+-ID:\\AURIX" "workspace\\E01_gpio_demo\\libraries\\infineon_libraries\\iLLD\\TC26B\\Tricore\\Fce\\Crc
+-ID:\\AURIX" "workspace\\E01_gpio_demo\\libraries\\infineon_libraries\\iLLD\\TC26B\\Tricore\\Fce\\Std
+-ID:\\AURIX" "workspace\\E01_gpio_demo\\libraries\\infineon_libraries\\iLLD\\TC26B\\Tricore\\Fft
+-ID:\\AURIX" "workspace\\E01_gpio_demo\\libraries\\infineon_libraries\\iLLD\\TC26B\\Tricore\\Fft\\Fft
+-ID:\\AURIX" "workspace\\E01_gpio_demo\\libraries\\infineon_libraries\\iLLD\\TC26B\\Tricore\\Fft\\Std
+-ID:\\AURIX" "workspace\\E01_gpio_demo\\libraries\\infineon_libraries\\iLLD\\TC26B\\Tricore\\Flash
+-ID:\\AURIX" "workspace\\E01_gpio_demo\\libraries\\infineon_libraries\\iLLD\\TC26B\\Tricore\\Flash\\Std
+-ID:\\AURIX" "workspace\\E01_gpio_demo\\libraries\\infineon_libraries\\iLLD\\TC26B\\Tricore\\Gpt12
+-ID:\\AURIX" "workspace\\E01_gpio_demo\\libraries\\infineon_libraries\\iLLD\\TC26B\\Tricore\\Gpt12\\IncrEnc
+-ID:\\AURIX" "workspace\\E01_gpio_demo\\libraries\\infineon_libraries\\iLLD\\TC26B\\Tricore\\Gpt12\\Std
+-ID:\\AURIX" "workspace\\E01_gpio_demo\\libraries\\infineon_libraries\\iLLD\\TC26B\\Tricore\\Gtm
+-ID:\\AURIX" "workspace\\E01_gpio_demo\\libraries\\infineon_libraries\\iLLD\\TC26B\\Tricore\\Gtm\\Atom
+-ID:\\AURIX" "workspace\\E01_gpio_demo\\libraries\\infineon_libraries\\iLLD\\TC26B\\Tricore\\Gtm\\Atom\\Pwm
+-ID:\\AURIX" "workspace\\E01_gpio_demo\\libraries\\infineon_libraries\\iLLD\\TC26B\\Tricore\\Gtm\\Atom\\PwmHl
+-ID:\\AURIX" "workspace\\E01_gpio_demo\\libraries\\infineon_libraries\\iLLD\\TC26B\\Tricore\\Gtm\\Atom\\Timer
+-ID:\\AURIX" "workspace\\E01_gpio_demo\\libraries\\infineon_libraries\\iLLD\\TC26B\\Tricore\\Gtm\\Std
+-ID:\\AURIX" "workspace\\E01_gpio_demo\\libraries\\infineon_libraries\\iLLD\\TC26B\\Tricore\\Gtm\\Tim
+-ID:\\AURIX" "workspace\\E01_gpio_demo\\libraries\\infineon_libraries\\iLLD\\TC26B\\Tricore\\Gtm\\Tim\\In
+-ID:\\AURIX" "workspace\\E01_gpio_demo\\libraries\\infineon_libraries\\iLLD\\TC26B\\Tricore\\Gtm\\Tom
+-ID:\\AURIX" "workspace\\E01_gpio_demo\\libraries\\infineon_libraries\\iLLD\\TC26B\\Tricore\\Gtm\\Tom\\Pwm
+-ID:\\AURIX" "workspace\\E01_gpio_demo\\libraries\\infineon_libraries\\iLLD\\TC26B\\Tricore\\Gtm\\Tom\\PwmHl
+-ID:\\AURIX" "workspace\\E01_gpio_demo\\libraries\\infineon_libraries\\iLLD\\TC26B\\Tricore\\Gtm\\Tom\\Timer
+-ID:\\AURIX" "workspace\\E01_gpio_demo\\libraries\\infineon_libraries\\iLLD\\TC26B\\Tricore\\Gtm\\Trig
+-ID:\\AURIX" "workspace\\E01_gpio_demo\\libraries\\infineon_libraries\\iLLD\\TC26B\\Tricore\\Hssl
+-ID:\\AURIX" "workspace\\E01_gpio_demo\\libraries\\infineon_libraries\\iLLD\\TC26B\\Tricore\\Hssl\\Hssl
+-ID:\\AURIX" "workspace\\E01_gpio_demo\\libraries\\infineon_libraries\\iLLD\\TC26B\\Tricore\\Hssl\\Std
+-ID:\\AURIX" "workspace\\E01_gpio_demo\\libraries\\infineon_libraries\\iLLD\\TC26B\\Tricore\\I2c
+-ID:\\AURIX" "workspace\\E01_gpio_demo\\libraries\\infineon_libraries\\iLLD\\TC26B\\Tricore\\I2c\\I2c
+-ID:\\AURIX" "workspace\\E01_gpio_demo\\libraries\\infineon_libraries\\iLLD\\TC26B\\Tricore\\I2c\\Std
+-ID:\\AURIX" "workspace\\E01_gpio_demo\\libraries\\infineon_libraries\\iLLD\\TC26B\\Tricore\\Iom
+-ID:\\AURIX" "workspace\\E01_gpio_demo\\libraries\\infineon_libraries\\iLLD\\TC26B\\Tricore\\Iom\\Driver
+-ID:\\AURIX" "workspace\\E01_gpio_demo\\libraries\\infineon_libraries\\iLLD\\TC26B\\Tricore\\Iom\\Std
+-ID:\\AURIX" "workspace\\E01_gpio_demo\\libraries\\infineon_libraries\\iLLD\\TC26B\\Tricore\\Msc
+-ID:\\AURIX" "workspace\\E01_gpio_demo\\libraries\\infineon_libraries\\iLLD\\TC26B\\Tricore\\Msc\\Msc
+-ID:\\AURIX" "workspace\\E01_gpio_demo\\libraries\\infineon_libraries\\iLLD\\TC26B\\Tricore\\Msc\\Std
+-ID:\\AURIX" "workspace\\E01_gpio_demo\\libraries\\infineon_libraries\\iLLD\\TC26B\\Tricore\\Mtu
+-ID:\\AURIX" "workspace\\E01_gpio_demo\\libraries\\infineon_libraries\\iLLD\\TC26B\\Tricore\\Mtu\\Std
+-ID:\\AURIX" "workspace\\E01_gpio_demo\\libraries\\infineon_libraries\\iLLD\\TC26B\\Tricore\\Multican
+-ID:\\AURIX" "workspace\\E01_gpio_demo\\libraries\\infineon_libraries\\iLLD\\TC26B\\Tricore\\Multican\\Can
+-ID:\\AURIX" "workspace\\E01_gpio_demo\\libraries\\infineon_libraries\\iLLD\\TC26B\\Tricore\\Multican\\Std
+-ID:\\AURIX" "workspace\\E01_gpio_demo\\libraries\\infineon_libraries\\iLLD\\TC26B\\Tricore\\Port
+-ID:\\AURIX" "workspace\\E01_gpio_demo\\libraries\\infineon_libraries\\iLLD\\TC26B\\Tricore\\Port\\Io
+-ID:\\AURIX" "workspace\\E01_gpio_demo\\libraries\\infineon_libraries\\iLLD\\TC26B\\Tricore\\Port\\Std
+-ID:\\AURIX" "workspace\\E01_gpio_demo\\libraries\\infineon_libraries\\iLLD\\TC26B\\Tricore\\Psi5
+-ID:\\AURIX" "workspace\\E01_gpio_demo\\libraries\\infineon_libraries\\iLLD\\TC26B\\Tricore\\Psi5\\Psi5
+-ID:\\AURIX" "workspace\\E01_gpio_demo\\libraries\\infineon_libraries\\iLLD\\TC26B\\Tricore\\Psi5\\Std
+-ID:\\AURIX" "workspace\\E01_gpio_demo\\libraries\\infineon_libraries\\iLLD\\TC26B\\Tricore\\Psi5s
+-ID:\\AURIX" "workspace\\E01_gpio_demo\\libraries\\infineon_libraries\\iLLD\\TC26B\\Tricore\\Psi5s\\Psi5s
+-ID:\\AURIX" "workspace\\E01_gpio_demo\\libraries\\infineon_libraries\\iLLD\\TC26B\\Tricore\\Psi5s\\Std
+-ID:\\AURIX" "workspace\\E01_gpio_demo\\libraries\\infineon_libraries\\iLLD\\TC26B\\Tricore\\Qspi
+-ID:\\AURIX" "workspace\\E01_gpio_demo\\libraries\\infineon_libraries\\iLLD\\TC26B\\Tricore\\Qspi\\SpiMaster
+-ID:\\AURIX" "workspace\\E01_gpio_demo\\libraries\\infineon_libraries\\iLLD\\TC26B\\Tricore\\Qspi\\SpiSlave
+-ID:\\AURIX" "workspace\\E01_gpio_demo\\libraries\\infineon_libraries\\iLLD\\TC26B\\Tricore\\Qspi\\Std
+-ID:\\AURIX" "workspace\\E01_gpio_demo\\libraries\\infineon_libraries\\iLLD\\TC26B\\Tricore\\Scu
+-ID:\\AURIX" "workspace\\E01_gpio_demo\\libraries\\infineon_libraries\\iLLD\\TC26B\\Tricore\\Scu\\Std
+-ID:\\AURIX" "workspace\\E01_gpio_demo\\libraries\\infineon_libraries\\iLLD\\TC26B\\Tricore\\Sent
+-ID:\\AURIX" "workspace\\E01_gpio_demo\\libraries\\infineon_libraries\\iLLD\\TC26B\\Tricore\\Sent\\Sent
+-ID:\\AURIX" "workspace\\E01_gpio_demo\\libraries\\infineon_libraries\\iLLD\\TC26B\\Tricore\\Sent\\Std
+-ID:\\AURIX" "workspace\\E01_gpio_demo\\libraries\\infineon_libraries\\iLLD\\TC26B\\Tricore\\Smu
+-ID:\\AURIX" "workspace\\E01_gpio_demo\\libraries\\infineon_libraries\\iLLD\\TC26B\\Tricore\\Smu\\Std
+-ID:\\AURIX" "workspace\\E01_gpio_demo\\libraries\\infineon_libraries\\iLLD\\TC26B\\Tricore\\Src
+-ID:\\AURIX" "workspace\\E01_gpio_demo\\libraries\\infineon_libraries\\iLLD\\TC26B\\Tricore\\Src\\Std
+-ID:\\AURIX" "workspace\\E01_gpio_demo\\libraries\\infineon_libraries\\iLLD\\TC26B\\Tricore\\Stm
+-ID:\\AURIX" "workspace\\E01_gpio_demo\\libraries\\infineon_libraries\\iLLD\\TC26B\\Tricore\\Stm\\Std
+-ID:\\AURIX" "workspace\\E01_gpio_demo\\libraries\\infineon_libraries\\iLLD\\TC26B\\Tricore\\Stm\\Timer
+-ID:\\AURIX" "workspace\\E01_gpio_demo\\libraries\\infineon_libraries\\iLLD\\TC26B\\Tricore\\Vadc
+-ID:\\AURIX" "workspace\\E01_gpio_demo\\libraries\\infineon_libraries\\iLLD\\TC26B\\Tricore\\Vadc\\Adc
+-ID:\\AURIX" "workspace\\E01_gpio_demo\\libraries\\infineon_libraries\\iLLD\\TC26B\\Tricore\\Vadc\\Std
+-ID:\\AURIX" "workspace\\E01_gpio_demo\\libraries\\infineon_libraries\\iLLD\\TC26B\\Tricore\\_Impl
+-ID:\\AURIX" "workspace\\E01_gpio_demo\\libraries\\infineon_libraries\\iLLD\\TC26B\\Tricore\\_Lib
+-ID:\\AURIX" "workspace\\E01_gpio_demo\\libraries\\infineon_libraries\\iLLD\\TC26B\\Tricore\\_Lib\\DataHandling
+-ID:\\AURIX" "workspace\\E01_gpio_demo\\libraries\\infineon_libraries\\iLLD\\TC26B\\Tricore\\_Lib\\InternalMux
+-ID:\\AURIX" "workspace\\E01_gpio_demo\\libraries\\infineon_libraries\\iLLD\\TC26B\\Tricore\\_PinMap
+-ID:\\AURIX" "workspace\\E01_gpio_demo\\libraries\\zf_common
+-ID:\\AURIX" "workspace\\E01_gpio_demo\\libraries\\zf_device
+-ID:\\AURIX" "workspace\\E01_gpio_demo\\libraries\\zf_driver
+-ID:\\AURIX" "workspace\\E01_gpio_demo\\user
+-g2
+-w544
+-w557
+-t4
+--language=+volatile
+-N0
+-O0
+-Y0
+-Z0
+--compact-max-size=200
+--misrac-version=2012
+-o
+libraries/zf_driver/zf_driver_delay.src
+../libraries/zf_driver/zf_driver_delay.c

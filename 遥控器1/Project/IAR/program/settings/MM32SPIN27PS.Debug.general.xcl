@@ -1,0 +1,15 @@
+"F:\IAR\arm\bin\armproc.dll" 
+
+"F:\IAR\arm\bin\armJET.dll" 
+
+"E:\study\stupid car\遥控器++(程序)\Seekfree_MM32SPIN27PS_Opensource_Library\Project\IAR\program\Debug\Exe\MM32SPIN27PS.out" 
+
+--plugin="F:\IAR\arm\bin\armbat.dll" 
+
+--device_macro="F:\IAR\arm\config\debugger\MindMotion\MM32SPINxxxx.dmac" 
+
+--flash_loader="F:\IAR\arm\config\flashloader\MindMotion\FlashMM32SPIN27PS.board" 
+
+
+
+

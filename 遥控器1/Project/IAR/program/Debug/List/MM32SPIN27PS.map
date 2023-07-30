@@ -1,0 +1,586 @@
+###############################################################################
+#
+# IAR ELF Linker V8.32.3.193/W32 for ARM                  09/Nov/2022  15:33:30
+# Copyright 2007-2019 IAR Systems AB.
+#
+#    Output file  =  
+#        E:\study\stupid
+#        car\Ò£¿ØÆ÷++(³ÌÐò)\Seekfree_MM32SPIN27PS_Opensource_Library\Project\IAR\program\Debug\Exe\MM32SPIN27PS.out
+#    Map file     =  
+#        E:\study\stupid
+#        car\Ò£¿ØÆ÷++(³ÌÐò)\Seekfree_MM32SPIN27PS_Opensource_Library\Project\IAR\program\Debug\List\MM32SPIN27PS.map
+#    Command line =  
+#        -f C:\Users\666\AppData\Local\Temp\EWAD78.tmp ("E:\study\stupid
+#        car\Ò£¿ØÆ÷++(³ÌÐò)\Seekfree_MM32SPIN27PS_Opensource_Library\Project\IAR\program\Debug\Obj\board.o"
+#        "E:\study\stupid
+#        car\Ò£¿ØÆ÷++(³ÌÐò)\Seekfree_MM32SPIN27PS_Opensource_Library\Project\IAR\program\Debug\Obj\common.o"
+#        "E:\study\stupid
+#        car\Ò£¿ØÆ÷++(³ÌÐò)\Seekfree_MM32SPIN27PS_Opensource_Library\Project\IAR\program\Debug\Obj\hal_adc.o"
+#        "E:\study\stupid
+#        car\Ò£¿ØÆ÷++(³ÌÐò)\Seekfree_MM32SPIN27PS_Opensource_Library\Project\IAR\program\Debug\Obj\hal_bkp.o"
+#        "E:\study\stupid
+#        car\Ò£¿ØÆ÷++(³ÌÐò)\Seekfree_MM32SPIN27PS_Opensource_Library\Project\IAR\program\Debug\Obj\hal_comp.o"
+#        "E:\study\stupid
+#        car\Ò£¿ØÆ÷++(³ÌÐò)\Seekfree_MM32SPIN27PS_Opensource_Library\Project\IAR\program\Debug\Obj\hal_crc.o"
+#        "E:\study\stupid
+#        car\Ò£¿ØÆ÷++(³ÌÐò)\Seekfree_MM32SPIN27PS_Opensource_Library\Project\IAR\program\Debug\Obj\hal_dbg.o"
+#        "E:\study\stupid
+#        car\Ò£¿ØÆ÷++(³ÌÐò)\Seekfree_MM32SPIN27PS_Opensource_Library\Project\IAR\program\Debug\Obj\hal_div.o"
+#        "E:\study\stupid
+#        car\Ò£¿ØÆ÷++(³ÌÐò)\Seekfree_MM32SPIN27PS_Opensource_Library\Project\IAR\program\Debug\Obj\hal_dma.o"
+#        "E:\study\stupid
+#        car\Ò£¿ØÆ÷++(³ÌÐò)\Seekfree_MM32SPIN27PS_Opensource_Library\Project\IAR\program\Debug\Obj\hal_exti.o"
+#        "E:\study\stupid
+#        car\Ò£¿ØÆ÷++(³ÌÐò)\Seekfree_MM32SPIN27PS_Opensource_Library\Project\IAR\program\Debug\Obj\hal_flash.o"
+#        "E:\study\stupid
+#        car\Ò£¿ØÆ÷++(³ÌÐò)\Seekfree_MM32SPIN27PS_Opensource_Library\Project\IAR\program\Debug\Obj\hal_gpio.o"
+#        "E:\study\stupid
+#        car\Ò£¿ØÆ÷++(³ÌÐò)\Seekfree_MM32SPIN27PS_Opensource_Library\Project\IAR\program\Debug\Obj\hal_i2c.o"
+#        "E:\study\stupid
+#        car\Ò£¿ØÆ÷++(³ÌÐò)\Seekfree_MM32SPIN27PS_Opensource_Library\Project\IAR\program\Debug\Obj\hal_iwdg.o"
+#        "E:\study\stupid
+#        car\Ò£¿ØÆ÷++(³ÌÐò)\Seekfree_MM32SPIN27PS_Opensource_Library\Project\IAR\program\Debug\Obj\hal_misc.o"
+#        "E:\study\stupid
+#        car\Ò£¿ØÆ÷++(³ÌÐò)\Seekfree_MM32SPIN27PS_Opensource_Library\Project\IAR\program\Debug\Obj\hal_opamp.o"
+#        "E:\study\stupid
+#        car\Ò£¿ØÆ÷++(³ÌÐò)\Seekfree_MM32SPIN27PS_Opensource_Library\Project\IAR\program\Debug\Obj\hal_pwr.o"
+#        "E:\study\stupid
+#        car\Ò£¿ØÆ÷++(³ÌÐò)\Seekfree_MM32SPIN27PS_Opensource_Library\Project\IAR\program\Debug\Obj\hal_rcc.o"
+#        "E:\study\stupid
+#        car\Ò£¿ØÆ÷++(³ÌÐò)\Seekfree_MM32SPIN27PS_Opensource_Library\Project\IAR\program\Debug\Obj\hal_spi.o"
+#        "E:\study\stupid
+#        car\Ò£¿ØÆ÷++(³ÌÐò)\Seekfree_MM32SPIN27PS_Opensource_Library\Project\IAR\program\Debug\Obj\hal_sqrt.o"
+#        "E:\study\stupid
+#        car\Ò£¿ØÆ÷++(³ÌÐò)\Seekfree_MM32SPIN27PS_Opensource_Library\Project\IAR\program\Debug\Obj\hal_tim.o"
+#        "E:\study\stupid
+#        car\Ò£¿ØÆ÷++(³ÌÐò)\Seekfree_MM32SPIN27PS_Opensource_Library\Project\IAR\program\Debug\Obj\hal_uart.o"
+#        "E:\study\stupid
+#        car\Ò£¿ØÆ÷++(³ÌÐò)\Seekfree_MM32SPIN27PS_Opensource_Library\Project\IAR\program\Debug\Obj\hal_uid.o"
+#        "E:\study\stupid
+#        car\Ò£¿ØÆ÷++(³ÌÐò)\Seekfree_MM32SPIN27PS_Opensource_Library\Project\IAR\program\Debug\Obj\hal_ver.o"
+#        "E:\study\stupid
+#        car\Ò£¿ØÆ÷++(³ÌÐò)\Seekfree_MM32SPIN27PS_Opensource_Library\Project\IAR\program\Debug\Obj\hal_wwdg.o"
+#        "E:\study\stupid
+#        car\Ò£¿ØÆ÷++(³ÌÐò)\Seekfree_MM32SPIN27PS_Opensource_Library\Project\IAR\program\Debug\Obj\isr.o"
+#        "E:\study\stupid
+#        car\Ò£¿ØÆ÷++(³ÌÐò)\Seekfree_MM32SPIN27PS_Opensource_Library\Project\IAR\program\Debug\Obj\key.o"
+#        "E:\study\stupid
+#        car\Ò£¿ØÆ÷++(³ÌÐò)\Seekfree_MM32SPIN27PS_Opensource_Library\Project\IAR\program\Debug\Obj\lcd.o"
+#        "E:\study\stupid
+#        car\Ò£¿ØÆ÷++(³ÌÐò)\Seekfree_MM32SPIN27PS_Opensource_Library\Project\IAR\program\Debug\Obj\main.o"
+#        "E:\study\stupid
+#        car\Ò£¿ØÆ÷++(³ÌÐò)\Seekfree_MM32SPIN27PS_Opensource_Library\Project\IAR\program\Debug\Obj\mw1208.o"
+#        "E:\study\stupid
+#        car\Ò£¿ØÆ÷++(³ÌÐò)\Seekfree_MM32SPIN27PS_Opensource_Library\Project\IAR\program\Debug\Obj\SEEKFREE_18TFT.o"
+#        "E:\study\stupid
+#        car\Ò£¿ØÆ÷++(³ÌÐò)\Seekfree_MM32SPIN27PS_Opensource_Library\Project\IAR\program\Debug\Obj\SEEKFREE_7725.o"
+#        "E:\study\stupid
+#        car\Ò£¿ØÆ÷++(³ÌÐò)\Seekfree_MM32SPIN27PS_Opensource_Library\Project\IAR\program\Debug\Obj\SEEKFREE_ABSOLUTE_ENCODER.o"
+#        "E:\study\stupid
+#        car\Ò£¿ØÆ÷++(³ÌÐò)\Seekfree_MM32SPIN27PS_Opensource_Library\Project\IAR\program\Debug\Obj\SEEKFREE_FONT.o"
+#        "E:\study\stupid
+#        car\Ò£¿ØÆ÷++(³ÌÐò)\Seekfree_MM32SPIN27PS_Opensource_Library\Project\IAR\program\Debug\Obj\SEEKFREE_ICM20602.o"
+#        "E:\study\stupid
+#        car\Ò£¿ØÆ÷++(³ÌÐò)\Seekfree_MM32SPIN27PS_Opensource_Library\Project\IAR\program\Debug\Obj\SEEKFREE_IIC.o"
+#        "E:\study\stupid
+#        car\Ò£¿ØÆ÷++(³ÌÐò)\Seekfree_MM32SPIN27PS_Opensource_Library\Project\IAR\program\Debug\Obj\SEEKFREE_IPS114_SPI.o"
+#        "E:\study\stupid
+#        car\Ò£¿ØÆ÷++(³ÌÐò)\Seekfree_MM32SPIN27PS_Opensource_Library\Project\IAR\program\Debug\Obj\SEEKFREE_L3G4200D.o"
+#        "E:\study\stupid
+#        car\Ò£¿ØÆ÷++(³ÌÐò)\Seekfree_MM32SPIN27PS_Opensource_Library\Project\IAR\program\Debug\Obj\SEEKFREE_MMA8451.o"
+#        "E:\study\stupid
+#        car\Ò£¿ØÆ÷++(³ÌÐò)\Seekfree_MM32SPIN27PS_Opensource_Library\Project\IAR\program\Debug\Obj\SEEKFREE_MPU6050.o"
+#        "E:\study\stupid
+#        car\Ò£¿ØÆ÷++(³ÌÐò)\Seekfree_MM32SPIN27PS_Opensource_Library\Project\IAR\program\Debug\Obj\SEEKFREE_MT9V03X.o"
+#        "E:\study\stupid
+#        car\Ò£¿ØÆ÷++(³ÌÐò)\Seekfree_MM32SPIN27PS_Opensource_Library\Project\IAR\program\Debug\Obj\SEEKFREE_OLED.o"
+#        "E:\study\stupid
+#        car\Ò£¿ØÆ÷++(³ÌÐò)\Seekfree_MM32SPIN27PS_Opensource_Library\Project\IAR\program\Debug\Obj\SEEKFREE_PRINTF.o"
+#        "E:\study\stupid
+#        car\Ò£¿ØÆ÷++(³ÌÐò)\Seekfree_MM32SPIN27PS_Opensource_Library\Project\IAR\program\Debug\Obj\SEEKFREE_TSL1401.o"
+#        "E:\study\stupid
+#        car\Ò£¿ØÆ÷++(³ÌÐò)\Seekfree_MM32SPIN27PS_Opensource_Library\Project\IAR\program\Debug\Obj\SEEKFREE_UART_7725.o"
+#        "E:\study\stupid
+#        car\Ò£¿ØÆ÷++(³ÌÐò)\Seekfree_MM32SPIN27PS_Opensource_Library\Project\IAR\program\Debug\Obj\SEEKFREE_VIRSCO.o"
+#        "E:\study\stupid
+#        car\Ò£¿ØÆ÷++(³ÌÐò)\Seekfree_MM32SPIN27PS_Opensource_Library\Project\IAR\program\Debug\Obj\SEEKFREE_WIRELESS.o"
+#        "E:\study\stupid
+#        car\Ò£¿ØÆ÷++(³ÌÐò)\Seekfree_MM32SPIN27PS_Opensource_Library\Project\IAR\program\Debug\Obj\startup_mm32spin2xx_p_iar.o"
+#        "E:\study\stupid
+#        car\Ò£¿ØÆ÷++(³ÌÐò)\Seekfree_MM32SPIN27PS_Opensource_Library\Project\IAR\program\Debug\Obj\system_mm32spin2xx_p.o"
+#        "E:\study\stupid
+#        car\Ò£¿ØÆ÷++(³ÌÐò)\Seekfree_MM32SPIN27PS_Opensource_Library\Project\IAR\program\Debug\Obj\yao_gan.o"
+#        "E:\study\stupid
+#        car\Ò£¿ØÆ÷++(³ÌÐò)\Seekfree_MM32SPIN27PS_Opensource_Library\Project\IAR\program\Debug\Obj\zf_adc.o"
+#        "E:\study\stupid
+#        car\Ò£¿ØÆ÷++(³ÌÐò)\Seekfree_MM32SPIN27PS_Opensource_Library\Project\IAR\program\Debug\Obj\zf_camera.o"
+#        "E:\study\stupid
+#        car\Ò£¿ØÆ÷++(³ÌÐò)\Seekfree_MM32SPIN27PS_Opensource_Library\Project\IAR\program\Debug\Obj\zf_exti.o"
+#        "E:\study\stupid
+#        car\Ò£¿ØÆ÷++(³ÌÐò)\Seekfree_MM32SPIN27PS_Opensource_Library\Project\IAR\program\Debug\Obj\zf_flash.o"
+#        "E:\study\stupid
+#        car\Ò£¿ØÆ÷++(³ÌÐò)\Seekfree_MM32SPIN27PS_Opensource_Library\Project\IAR\program\Debug\Obj\zf_gpio.o"
+#        "E:\study\stupid
+#        car\Ò£¿ØÆ÷++(³ÌÐò)\Seekfree_MM32SPIN27PS_Opensource_Library\Project\IAR\program\Debug\Obj\zf_pit.o"
+#        "E:\study\stupid
+#        car\Ò£¿ØÆ÷++(³ÌÐò)\Seekfree_MM32SPIN27PS_Opensource_Library\Project\IAR\program\Debug\Obj\zf_pwm.o"
+#        "E:\study\stupid
+#        car\Ò£¿ØÆ÷++(³ÌÐò)\Seekfree_MM32SPIN27PS_Opensource_Library\Project\IAR\program\Debug\Obj\zf_spi.o"
+#        "E:\study\stupid
+#        car\Ò£¿ØÆ÷++(³ÌÐò)\Seekfree_MM32SPIN27PS_Opensource_Library\Project\IAR\program\Debug\Obj\zf_systick.o"
+#        "E:\study\stupid
+#        car\Ò£¿ØÆ÷++(³ÌÐò)\Seekfree_MM32SPIN27PS_Opensource_Library\Project\IAR\program\Debug\Obj\zf_tim.o"
+#        "E:\study\stupid
+#        car\Ò£¿ØÆ÷++(³ÌÐò)\Seekfree_MM32SPIN27PS_Opensource_Library\Project\IAR\program\Debug\Obj\zf_uart.o"
+#        --no_out_extension -o "E:\study\stupid
+#        car\Ò£¿ØÆ÷++(³ÌÐò)\Seekfree_MM32SPIN27PS_Opensource_Library\Project\IAR\program\Debug\Exe\MM32SPIN27PS.out"
+#        --map "E:\study\stupid
+#        car\Ò£¿ØÆ÷++(³ÌÐò)\Seekfree_MM32SPIN27PS_Opensource_Library\Project\IAR\program\Debug\List\MM32SPIN27PS.map"
+#        --config "E:\study\stupid
+#        car\Ò£¿ØÆ÷++(³ÌÐò)\Seekfree_MM32SPIN27PS_Opensource_Library\Project\IAR\program\MM32SPIN27PS.icf"
+#        --semihosting --entry __iar_program_start --vfe --text_out locale)
+#
+###############################################################################
+
+*******************************************************************************
+*** RUNTIME MODEL ATTRIBUTES
+***
+
+CppFlavor       = *
+__SystemLibrary = DLib
+__dlib_version  = 6
+
+
+*******************************************************************************
+*** HEAP SELECTION
+***
+
+The basic heap was selected because no calls to memory allocation
+functions were found in the application outside of system library
+functions, and there are calls to deallocation functions in the
+application.
+
+
+*******************************************************************************
+*** PLACEMENT SUMMARY
+***
+
+"A0":  place at 0x800'0000 { ro section .intvec };
+"P1":  place in [from 0x800'0000 to 0x801'ffff] { ro };
+define block CSTACK with size = 1K, alignment = 8 { };
+define block HEAP with size = 1K, alignment = 8 { };
+"P2":  place in [from 0x2000'0000 to 0x2000'2fff] {
+          rw, block CSTACK, block HEAP };
+initialize by copy { rw };
+
+  Section            Kind         Address    Size  Object
+  -------            ----         -------    ----  ------
+"A0":                                        0xc0
+  .intvec            ro code   0x800'0000    0xc0  startup_mm32spin2xx_p_iar.o [1]
+                             - 0x800'00c0    0xc0
+
+"P1":                                      0x401c
+  .text              ro code   0x800'00c0  0x16e4  lcd.o [1]
+  .text              ro code   0x800'17a4   0x330  zf_gpio.o [1]
+  .text              ro code   0x800'1ad4    0x20  hal_rcc.o [1]
+  .text              ro code   0x800'1af4    0xd4  hal_gpio.o [1]
+  .text              ro code   0x800'1bc8    0x50  zf_systick.o [1]
+  .text              ro code   0x800'1c18    0xe0  I32DivModFast.o [4]
+  .text              ro code   0x800'1cf8     0x2  IntDivZer.o [4]
+  .text              ro code   0x800'1cfa     0xa  xsprout.o [2]
+  .text              ro code   0x800'1d04   0xc7a  xprintflarge_nomb.o [2]
+  .text              ro code   0x800'297e     0x2  startup_mm32spin2xx_p_iar.o [1]
+  .text              ro code   0x800'2980    0x12  strchr.o [4]
+  .text              ro code   0x800'2994    0x48  xfail_s.o [2]
+  .text              ro code   0x800'29dc     0xe  strlen.o [4]
+  .text              ro code   0x800'29ec    0x16  memchr.o [4]
+  .text              ro code   0x800'2a02    0x6a  I64DivMod.o [4]
+  .text              ro code   0x800'2a6c   0x184  DblMul.o [3]
+  .text              ro code   0x800'2bf0    0x4e  ABImemcpy.o [4]
+  .text              ro code   0x800'2c3e    0xc2  DblDiv.o [3]
+  .text              ro code   0x800'2d00    0x2e  DblToI32.o [3]
+  .text              ro code   0x800'2d30    0x20  IxxToDbl.o [3]
+  .text              ro code   0x800'2d50   0x1a8  DblAddSub.o [3]
+  .text              ro code   0x800'2ef8     0xc  xlocale_c.o [2]
+  .text              ro code   0x800'2f04     0xa  abort.o [2]
+  .text              ro code   0x800'2f10     0x2  I64DivZer.o [4]
+  .text              ro code   0x800'2f14    0x14  exit.o [5]
+  .text              ro code   0x800'2f28   0x2d4  isr.o [1]
+  .text              ro code   0x800'31fc    0x84  SEEKFREE_UART_7725.o [1]
+  .text              ro code   0x800'3280    0x80  SEEKFREE_MT9V03X.o [1]
+  .text              ro code   0x800'3300    0x30  hal_exti.o [1]
+  .text              ro code   0x800'3330    0x38  SEEKFREE_7725.o [1]
+  .text              ro code   0x800'3368    0x24  hal_dma.o [1]
+  .text              ro code   0x800'338c   0x1e0  system_mm32spin2xx_p.o [1]
+  .rodata            const     0x800'356c   0x1c4  lcd.o [1]
+  .text              ro code   0x800'3730   0x1ac  zf_adc.o [1]
+  .text              ro code   0x800'38dc   0x190  zf_uart.o [1]
+  .text              ro code   0x800'3a6c    0x24  common.o [1]
+  .text              ro code   0x800'3a90    0x70  hal_misc.o [1]
+  .text              ro code   0x800'3b00   0x114  key.o [1]
+  .text              ro code   0x800'3c14    0x80  mw1208.o [1]
+  .text              ro code   0x800'3c94    0x40  sprintf.o [2]
+  .text              ro code   0x800'3cd4    0x4e  ABImemset.o [4]
+  .text              ro code   0x800'3d24   0x108  main.o [1]
+  .text              ro code   0x800'3e2c    0x1c  board.o [1]
+  .text              ro code   0x800'3e48    0xd4  yao_gan.o [1]
+  .text              ro code   0x800'3f1c    0x58  startup_mm32spin2xx_p_iar.o [1]
+  .text              ro code   0x800'3f74    0x3c  packbits_init_single.o [4]
+  .text              ro code   0x800'3fb0    0x28  data_init.o [4]
+  .iar.init_table    const     0x800'3fd8    0x10  - Linker created -
+  .text              ro code   0x800'3fe8    0x1e  cmain.o [4]
+  .text              ro code   0x800'4006     0x4  low_level_init.o [2]
+  .text              ro code   0x800'400a     0x8  exit.o [2]
+  .text              ro code   0x800'4014     0xa  cexit.o [4]
+  .rodata            const     0x800'4020    0x10  main.o [1]
+  .text              ro code   0x800'4030     0xc  cstartup_M.o [4]
+  .rodata            const     0x800'403c     0x8  key.o [1]
+  .rodata            const     0x800'4044     0x8  key.o [1]
+  .rodata            const     0x800'404c     0x8  key.o [1]
+  .rodata            const     0x800'4054     0x8  key.o [1]
+  .rodata            const     0x800'405c     0x8  key.o [1]
+  .rodata            const     0x800'4064     0x8  mw1208.o [1]
+  .rodata            const     0x800'406c     0x4  xlocale_c.o [2]
+  .rodata            const     0x800'4070     0x0  packbits_init_single.o [4]
+  Initializer bytes  const     0x800'4070    0x6c  <for P2-1>
+                             - 0x800'40dc  0x401c
+
+"P2", part 1 of 2:                           0xb1
+  P2-1                        0x2000'0000    0xb1  <Init block>
+    .data            inited   0x2000'0000     0x4  system_mm32spin2xx_p.o [1]
+    .data            inited   0x2000'0004     0x8  yao_gan.o [1]
+    .data            inited   0x2000'000c     0x4  yao_gan.o [1]
+    .data            inited   0x2000'0010     0x4  yao_gan.o [1]
+    .data            inited   0x2000'0014     0x8  zf_adc.o [1]
+    .data            inited   0x2000'001c    0x10  zf_gpio.o [1]
+    .data            inited   0x2000'002c     0x8  zf_uart.o [1]
+    .data            inited   0x2000'0034    0x38  xlocale_c.o [2]
+    .bss             inited   0x2000'006c     0xc  lcd.o [1]
+    .bss             inited   0x2000'0078    0x20  mw1208.o [1]
+    .bss             inited   0x2000'0098     0x4  SEEKFREE_MT9V03X.o [1]
+    .bss             inited   0x2000'009c     0x4  SEEKFREE_UART_7725.o [1]
+    .bss             inited   0x2000'00a0     0x4  xfail_s.o [2]
+    .data            inited   0x2000'00a4     0x2  zf_uart.o [1]
+    .bss             inited   0x2000'00a6     0x2  zf_adc.o [1]
+    .data            inited   0x2000'00a8     0x1  key.o [1]
+    .bss             inited   0x2000'00a9     0x1  common.o [1]
+    .bss             inited   0x2000'00aa     0x1  SEEKFREE_7725.o [1]
+    .bss             inited   0x2000'00ab     0x1  SEEKFREE_MT9V03X.o [1]
+    .bss             inited   0x2000'00ac     0x1  SEEKFREE_MT9V03X.o [1]
+    .bss             inited   0x2000'00ad     0x1  SEEKFREE_MT9V03X.o [1]
+    .bss             inited   0x2000'00ae     0x1  SEEKFREE_UART_7725.o [1]
+    .bss             inited   0x2000'00af     0x1  SEEKFREE_UART_7725.o [1]
+    .bss             inited   0x2000'00b0     0x1  SEEKFREE_UART_7725.o [1]
+                            - 0x2000'00b1    0xb1
+
+"P2", part 2 of 2:                          0x400
+  CSTACK                      0x2000'00b8   0x400  <Block>
+    CSTACK           uninit   0x2000'00b8   0x400  <Block tail>
+                            - 0x2000'04b8   0x400
+
+Unused ranges:
+
+         From           To      Size
+         ----           --      ----
+   0x800'40dc   0x801'ffff  0x1'bf24
+  0x2000'00b1  0x2000'00b7       0x7
+  0x2000'04b8  0x2000'2fff    0x2b48
+
+
+*******************************************************************************
+*** INIT TABLE
+***
+
+          Address      Size
+          -------      ----
+Copy/packbits (__iar_packbits_init_single3)
+    1 source range, total size 0x6c (61% of destination):
+           0x800'4070  0x6c
+    1 destination range, total size 0xb1:
+          0x2000'0000  0xb1
+
+
+
+*******************************************************************************
+*** MODULE SUMMARY
+***
+
+    Module                       ro code  ro data  rw data
+    ------                       -------  -------  -------
+command line/config:
+    ------------------------------------------------------
+    Total:
+
+E:\study\stupid car\Ò£¿ØÆ÷++(³ÌÐò)\Seekfree_MM32SPIN27PS_Opensource_Library\Project\IAR\program\Debug\Obj: [1]
+    SEEKFREE_7725.o                   56        1        1
+    SEEKFREE_MT9V03X.o               128        5        7
+    SEEKFREE_UART_7725.o             132        4        7
+    board.o                           28
+    common.o                          36                 1
+    hal_dma.o                         36
+    hal_exti.o                        48
+    hal_gpio.o                       212
+    hal_misc.o                       112
+    hal_rcc.o                         32
+    isr.o                            724
+    key.o                            276       41        1
+    lcd.o                          5 860      460       12
+    main.o                           264       16
+    mw1208.o                         128       27       32
+    startup_mm32spin2xx_p_iar.o      282
+    system_mm32spin2xx_p.o           480        2        4
+    yao_gan.o                        212       10       16
+    zf_adc.o                         428        6       10
+    zf_gpio.o                        816        9       16
+    zf_systick.o                      80
+    zf_uart.o                        400        6       10
+    ------------------------------------------------------
+    Total:                        10 770      587      117
+
+dl6M_tlf.a: [2]
+    abort.o                           10
+    exit.o                             8
+    low_level_init.o                   4
+    sprintf.o                         64
+    xfail_s.o                         72        3        4
+    xlocale_c.o                       12       38       56
+    xprintflarge_nomb.o            3 194
+    xsprout.o                         10
+    ------------------------------------------------------
+    Total:                         3 374       41       60
+
+m6M_tl.a: [3]
+    DblAddSub.o                      424
+    DblDiv.o                         194
+    DblMul.o                         388
+    DblToI32.o                        46
+    IxxToDbl.o                        32
+    ------------------------------------------------------
+    Total:                         1 084
+
+rt6M_tl.a: [4]
+    ABImemcpy.o                       78
+    ABImemset.o                       78
+    I32DivModFast.o                  224
+    I64DivMod.o                      106
+    I64DivZer.o                        2
+    IntDivZer.o                        2
+    cexit.o                           10
+    cmain.o                           30
+    cstartup_M.o                      12
+    data_init.o                       40
+    memchr.o                          22
+    packbits_init_single.o            60
+    strchr.o                          18
+    strlen.o                          14
+    ------------------------------------------------------
+    Total:                           696
+
+shb_l.a: [5]
+    exit.o                            20
+    ------------------------------------------------------
+    Total:                            20
+
+    Gaps                              14        2
+    Linker created                             16    1 024
+----------------------------------------------------------
+    Grand Total:                  15 958      646    1 201
+
+
+*******************************************************************************
+*** ENTRY LIST
+***
+
+Entry                       Address   Size  Type      Object
+-----                       -------   ----  ----      ------
+.iar.init_table$$Base    0x800'3fd8          --   Gb  - Linker created -
+.iar.init_table$$Limit   0x800'3fe8          --   Gb  - Linker created -
+?main                    0x800'3fe9         Code  Gb  cmain.o [4]
+AutoCalPllFactor         0x800'33d1   0x62  Code  Gb  system_mm32spin2xx_p.o [1]
+CSTACK$$Base            0x2000'00b8          --   Gb  - Linker created -
+CSTACK$$Limit           0x2000'04b8          --   Gb  - Linker created -
+DATAOUT                  0x800'00c1  0x12a  Code  Gb  lcd.o [1]
+DMA1_Channel1_IRQHandler
+                         0x800'313f   0x14  Code  Gb  isr.o [1]
+DMA1_Channel2_3_IRQHandler
+                         0x800'3153   0x28  Code  Gb  isr.o [1]
+DMA1_Channel4_5_IRQHandler
+                         0x800'317b   0x52  Code  Gb  isr.o [1]
+DMA_ClearFlag            0x800'337f    0x6  Code  Gb  hal_dma.o [1]
+DMA_GetFlagStatus        0x800'3369   0x16  Code  Gb  hal_dma.o [1]
+EXTI0_1_IRQHandler       0x800'2fed   0x24  Code  Gb  isr.o [1]
+EXTI2_3_IRQHandler       0x800'3011   0x24  Code  Gb  isr.o [1]
+EXTI4_15_IRQHandler      0x800'3035  0x10a  Code  Gb  isr.o [1]
+EXTI_ClearFlag           0x800'3301    0x6  Code  Gb  hal_exti.o [1]
+EXTI_GetITStatus         0x800'3307   0x20  Code  Gb  hal_exti.o [1]
+GPIO_Init                0x800'1af5   0xd4  Code  Gb  hal_gpio.o [1]
+HardFault_Handler        0x800'3a85    0x4  Code  Gb  common.o [1]
+KEY_Scan                 0x800'3b1d   0x86  Code  Gb  key.o [1]
+KEY_Scan::key_up        0x2000'00a8    0x1  Data  Lc  key.o [1]
+LCD_Clear                0x800'0659   0x58  Code  Gb  lcd.o [1]
+LCD_Display_Dir          0x800'061d   0x38  Code  Gb  lcd.o [1]
+LCD_DrawPoint            0x800'05d9   0x44  Code  Gb  lcd.o [1]
+LCD_Init                 0x800'0875  0xf0a  Code  Gb  lcd.o [1]
+LCD_Scan_Dir             0x800'0369  0x26a  Code  Gb  lcd.o [1]
+LCD_SetCursor            0x800'0293   0xd6  Code  Gb  lcd.o [1]
+LCD_Showimage            0x800'074d  0x11e  Code  Gb  lcd.o [1]
+LCD_WR_DATAX             0x800'0221   0x36  Code  Gb  lcd.o [1]
+LCD_WR_REG               0x800'01eb   0x36  Code  Gb  lcd.o [1]
+LCD_WriteReg             0x800'0257   0x3c  Code  Gb  lcd.o [1]
+LoadInt                  0x800'1eb1   0x74  Code  Lc  xprintflarge_nomb.o [2]
+NMI_Handler              0x800'3a81    0x4  Code  Gb  common.o [1]
+NVIC_Init                0x800'3a91   0x62  Code  Gb  hal_misc.o [1]
+PendSV_Handler           0x800'3a8d    0x4  Code  Gb  common.o [1]
+RCC_APB2PeriphClockCmd   0x800'1ad5   0x1c  Code  Gb  hal_rcc.o [1]
+Region$$Table$$Base      0x800'3fd8          --   Gb  - Linker created -
+Region$$Table$$Limit     0x800'3fe8          --   Gb  - Linker created -
+SVC_Handler              0x800'3a89    0x4  Code  Gb  common.o [1]
+SetSysClock              0x800'3433    0x8  Code  Lc  system_mm32spin2xx_p.o [1]
+SetSysClockToXX          0x800'343b   0xf8  Code  Lc  system_mm32spin2xx_p.o [1]
+SystemCoreClock         0x2000'0000    0x4  Data  Gb  system_mm32spin2xx_p.o [1]
+SystemInit               0x800'338d   0x44  Code  Gb  system_mm32spin2xx_p.o [1]
+TIM14_IRQHandler         0x800'2f59    0xc  Code  Gb  isr.o [1]
+TIM16_IRQHandler         0x800'2f65    0xc  Code  Gb  isr.o [1]
+TIM17_IRQHandler         0x800'2f71    0xc  Code  Gb  isr.o [1]
+TIM1_BRK_UP_TRG_COM_IRQHandler
+                         0x800'2f29    0xc  Code  Gb  isr.o [1]
+TIM2_IRQHandler          0x800'2f35    0xc  Code  Gb  isr.o [1]
+TIM3_IRQHandler          0x800'2f41    0xc  Code  Gb  isr.o [1]
+TIM8_BRK_UP_TRG_COM_IRQHandler
+                         0x800'2f4d    0xc  Code  Gb  isr.o [1]
+UART1_IRQHandler         0x800'2f7d   0x2a  Code  Gb  isr.o [1]
+UART2_IRQHandler         0x800'2fa7   0x46  Code  Gb  isr.o [1]
+_GenldLargeNoMb          0x800'26cd  0x27c  Code  Lc  xprintflarge_nomb.o [2]
+_LdtobLargeNoMb          0x800'2445  0x24c  Code  Lc  xprintflarge_nomb.o [2]
+_LitobLargeNoMb          0x800'22e1  0x120  Code  Lc  xprintflarge_nomb.o [2]
+_Locale_lconv           0x2000'0034   0x38  Data  Lc  xlocale_c.o [2]
+_PrintfLargeNoMb         0x800'1d05  0x19e  Code  Gb  xprintflarge_nomb.o [2]
+_PutcharsLargeNoMb       0x800'2949   0x34  Code  Lc  xprintflarge_nomb.o [2]
+_PutfldLargeNoMb         0x800'1f25  0x25c  Code  Lc  xprintflarge_nomb.o [2]
+_PuttxtLargeNoMb         0x800'21cd  0x114  Code  Lc  xprintflarge_nomb.o [2]
+_SProut                  0x800'1cfb    0xa  Code  Gb  xsprout.o [2]
+__ICFEDIT_region_RAM_end__ {Abs}
+                        0x2000'2fff         Data  Gb  <internal module>
+__ICFEDIT_region_RAM_start__ {Abs}
+                        0x2000'0000         Data  Gb  <internal module>
+__Vectors                0x800'0000          --   Gb  startup_mm32spin2xx_p_iar.o [1]
+__Vectors_End            0x800'00c0         Data  Gb  startup_mm32spin2xx_p_iar.o [1]
+__Vectors_Size {Abs}           0xc0          --   Gb  startup_mm32spin2xx_p_iar.o [1]
+__aeabi_d2uiz            0x800'2d01         Code  Gb  DblToI32.o [3]
+__aeabi_ddiv             0x800'2c3f         Code  Gb  DblDiv.o [3]
+__aeabi_dmul             0x800'2a6d         Code  Gb  DblMul.o [3]
+__aeabi_dsub             0x800'2e0b         Code  Gb  DblAddSub.o [3]
+__aeabi_idiv             0x800'1c45         Code  Gb  I32DivModFast.o [4]
+__aeabi_idiv0            0x800'1cf9         Code  Gb  IntDivZer.o [4]
+__aeabi_idivmod          0x800'1c45         Code  Gb  I32DivModFast.o [4]
+__aeabi_ldiv0            0x800'2f11         Code  Gb  I64DivZer.o [4]
+__aeabi_memcpy           0x800'2c25         Code  Gb  ABImemcpy.o [4]
+__aeabi_memcpy4          0x800'2bf1         Code  Gb  ABImemcpy.o [4]
+__aeabi_memcpy8          0x800'2bf1         Code  Gb  ABImemcpy.o [4]
+__aeabi_memset           0x800'3cd5         Code  Gb  ABImemset.o [4]
+__aeabi_ui2d             0x800'2d31         Code  Gb  IxxToDbl.o [3]
+__aeabi_uidiv            0x800'1c4b         Code  Gb  I32DivModFast.o [4]
+__aeabi_uidivmod         0x800'1c4b         Code  Gb  I32DivModFast.o [4]
+__aeabi_uldivmod         0x800'2a03         Code  Gb  I64DivMod.o [4]
+__cmain                  0x800'3fe9         Code  Gb  cmain.o [4]
+__exit                   0x800'2f15   0x14  Code  Gb  exit.o [5]
+__iar_Fail_s             0x800'2995   0x22  Code  Gb  xfail_s.o [2]
+__iar_Memchr             0x800'29ed         Code  Gb  memchr.o [4]
+__iar_Memcpy             0x800'2c31         Code  Gb  ABImemcpy.o [4]
+__iar_Memset4_word       0x800'3cf5         Code  Gb  ABImemset.o [4]
+__iar_Memset_word        0x800'3ce1         Code  Gb  ABImemset.o [4]
+__iar_Strchr             0x800'2981         Code  Gb  strchr.o [4]
+__iar_d2uiz              0x800'2d05         Code  Gb  DblToI32.o [3]
+__iar_data_init3         0x800'3fb1   0x28  Code  Gb  data_init.o [4]
+__iar_packbits_init_single3
+                         0x800'3f75   0x3c  Code  Gb  packbits_init_single.o [4]
+__iar_program_start      0x800'4031         Code  Gb  cstartup_M.o [4]
+__low_level_init         0x800'4007    0x4  Code  Gb  low_level_init.o [2]
+__vector_table           0x800'0000         Data  Gb  startup_mm32spin2xx_p_iar.o [1]
+__vector_table_0x1c      0x800'001c         Data  Gb  startup_mm32spin2xx_p_iar.o [1]
+_call_main               0x800'3ff5         Code  Gb  cmain.o [4]
+_exit                    0x800'4015         Code  Gb  cexit.o [4]
+_main                    0x800'4003         Code  Gb  cmain.o [4]
+abort                    0x800'2f05    0xa  Code  Gb  abort.o [2]
+adc1_pin                0x2000'0004    0x8  Data  Gb  yao_gan.o [1]
+adc_convert              0x800'3807   0x86  Code  Gb  zf_adc.o [1]
+adc_index               0x2000'0014    0x8  Data  Gb  zf_adc.o [1]
+adc_init                 0x800'374d   0xba  Code  Gb  zf_adc.o [1]
+adc_mean_filter          0x800'38a1   0x3c  Code  Gb  zf_adc.o [1]
+adc_pin_init             0x800'3731   0x1c  Code  Lc  zf_adc.o [1]
+adc_resolution          0x2000'00a6    0x2  Data  Gb  zf_adc.o [1]
+afio_init                0x800'18b5  0x118  Code  Gb  zf_gpio.o [1]
+board_init               0x800'3e2d   0x1c  Code  Gb  board.o [1]
+camera_type             0x2000'00a9    0x1  Data  Gb  common.o [1]
+exit                     0x800'400b    0x8  Code  Gb  exit.o [2]
+gImage_game              0x800'356c  0x1c4  Data  Gb  lcd.o [1]
+gpio_get                 0x800'1a31   0x26  Code  Gb  zf_gpio.o [1]
+gpio_group              0x2000'001c   0x10  Data  Gb  zf_gpio.o [1]
+gpio_init                0x800'17a5  0x110  Code  Gb  zf_gpio.o [1]
+gpio_set                 0x800'19cd   0x64  Code  Gb  zf_gpio.o [1]
+gpio_toggle              0x800'1a5d   0x74  Code  Gb  zf_gpio.o [1]
+int2str                  0x800'3e0d   0x20  Code  Gb  main.o [1]
+key_function             0x800'3ba3   0x5a  Code  Gb  key.o [1]
+key_init                 0x800'3b01   0x1c  Code  Gb  key.o [1]
+lcd_pin_init             0x800'06b1   0x76  Code  Gb  lcd.o [1]
+lcd_test                 0x800'177f   0x1c  Code  Gb  lcd.o [1]
+lcddev                  0x2000'006c    0xc  Data  Gb  lcd.o [1]
+localeconv               0x800'2ef9    0x4  Code  Gb  xlocale_c.o [2]
+main                     0x800'3d25   0xe2  Code  Gb  main.o [1]
+memchr                   0x800'29ed         Code  Gb  memchr.o [4]
+mt9v03x_dma              0x800'32d7   0x12  Code  Gb  SEEKFREE_MT9V03X.o [1]
+mt9v03x_finish_flag     0x2000'00ab    0x1  Data  Gb  SEEKFREE_MT9V03X.o [1]
+mt9v03x_uart_callback    0x800'3281   0x38  Code  Gb  SEEKFREE_MT9V03X.o [1]
+mt9v03x_vsync            0x800'32c5   0x12  Code  Gb  SEEKFREE_MT9V03X.o [1]
+mw1208_init              0x800'3c15   0x36  Code  Gb  mw1208.o [1]
+mw1208_send_data         0x800'3c4b   0x3c  Code  Gb  mw1208.o [1]
+nvic_init                0x800'3a6d   0x12  Code  Gb  common.o [1]
+ov7725_cof_uart_interrupt
+                         0x800'31fd   0x38  Code  Gb  SEEKFREE_UART_7725.o [1]
+ov7725_dma               0x800'3345   0x12  Code  Gb  SEEKFREE_7725.o [1]
+ov7725_finish_flag      0x2000'00aa    0x1  Data  Gb  SEEKFREE_7725.o [1]
+ov7725_uart_dma          0x800'3255   0x12  Code  Gb  SEEKFREE_UART_7725.o [1]
+ov7725_uart_finish_flag
+                        0x2000'00ae    0x1  Data  Gb  SEEKFREE_UART_7725.o [1]
+ov7725_uart_receive     0x2000'009c    0x4  Data  Lc  SEEKFREE_UART_7725.o [1]
+ov7725_uart_receive_flag
+                        0x2000'00b0    0x1  Data  Lc  SEEKFREE_UART_7725.o [1]
+ov7725_uart_receive_num
+                        0x2000'00af    0x1  Data  Lc  SEEKFREE_UART_7725.o [1]
+ov7725_uart_vsync        0x800'3235   0x14  Code  Gb  SEEKFREE_UART_7725.o [1]
+ov7725_vsync             0x800'3331   0x14  Code  Gb  SEEKFREE_7725.o [1]
+receive                 0x2000'0098    0x4  Data  Lc  SEEKFREE_MT9V03X.o [1]
+receive_num             0x2000'00ac    0x1  Data  Lc  SEEKFREE_MT9V03X.o [1]
+scale                    0x800'2401   0x44  Code  Lc  xprintflarge_nomb.o [2]
+sec_hand                0x2000'00a0    0x4  Data  Lc  xfail_s.o [2]
+send_Data               0x2000'0078   0x20  Data  Gb  mw1208.o [1]
+sprintf                  0x800'3c95   0x40  Code  Gb  sprintf.o [2]
+strchr                   0x800'2981         Code  Gb  strchr.o [4]
+strlen                   0x800'29dd         Code  Gb  strlen.o [4]
+systick_delay            0x800'1bc9   0x1e  Code  Gb  zf_systick.o [1]
+systick_delay_ms         0x800'1be7   0x20  Code  Gb  zf_systick.o [1]
+uart_index              0x2000'002c    0x8  Data  Gb  zf_uart.o [1]
+uart_init                0x800'3911   0xa2  Code  Gb  zf_uart.o [1]
+uart_irq                0x2000'00a4    0x2  Data  Gb  zf_uart.o [1]
+uart_pin_init            0x800'38dd   0x34  Code  Lc  zf_uart.o [1]
+uart_putbuff             0x800'39b3   0x2e  Code  Gb  zf_uart.o [1]
+uart_receive_flag       0x2000'00ad    0x1  Data  Lc  SEEKFREE_MT9V03X.o [1]
+uart_rx_irq              0x800'39e1   0x56  Code  Gb  zf_uart.o [1]
+yaogan_adc               0x800'3e49   0x7c  Code  Gb  yao_gan.o [1]
+yaogan_init              0x800'3ec5   0x2e  Code  Gb  yao_gan.o [1]
+yaoganstep_H            0x2000'000c    0x4  Data  Gb  yao_gan.o [1]
+yaoganstep_L            0x2000'0010    0x4  Data  Gb  yao_gan.o [1]
+
+
+[1] = E:\study\stupid car\Ò£¿ØÆ÷++(³ÌÐò)\Seekfree_MM32SPIN27PS_Opensource_Library\Project\IAR\program\Debug\Obj
+[2] = dl6M_tlf.a
+[3] = m6M_tl.a
+[4] = rt6M_tl.a
+[5] = shb_l.a
+
+  15 958 bytes of readonly  code memory
+     646 bytes of readonly  data memory
+   1 201 bytes of readwrite data memory
+
+Errors: none
+Warnings: none
